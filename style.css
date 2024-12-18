@@ -16,6 +16,19 @@ body{
     justify-content: center;
     margin-top: 2vw;
 }
+#n1:hover,
+#n2:hover,
+#n3:hover,
+#n5:hover,
+#n5:hover{
+    transform: scale(1.2);
+    color: gray;
+}
+#n4:hover{
+    transform: scale(1.3);
+    color: yellow;
+}
+
 
 .head1{
     display: flex;
