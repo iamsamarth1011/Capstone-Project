@@ -48,9 +48,13 @@ body{
 }
 
 .landing_page img{
-    width: 85vw;
+    width: 96.5vw;
+    height: 70vh;
+    border-radius: 10px;
     margin-bottom: 10vw;
+
 }
+
 
 .grid{
     display: grid;
@@ -60,22 +64,35 @@ body{
 }
 
 .project{
-    margin: 0 2vw;
+    margin: 1vh 2vw;
 }
 
 .project img{
     width: 100%;
-    margin-bottom: 7px;
+    margin-bottom: 5px;
+}
+.project:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 40px rgb(97, 38, 38);
+    transition: all 0.2s ease-in;
 }
 
+
 .i{
-    height: 32vh;
-    width: 41vw;
+    height: 30vh;
+    width: 45vw;
+}
+.project h3 {
+    font-size: large;
+}
+.project p{
+    font-size: medium;
 }
 
 .project h3 , .project p {
     text-align: left;
     font-family: 'inria sans';
+    
 }
 
 .project p{
@@ -89,7 +106,7 @@ body{
     margin-bottom: 10vw;
 }
 
-.caption h3 {
+.caption h1 {
     width: 65vw;
     font-family: 'Red Hat Display';
 }
@@ -102,9 +119,12 @@ body{
 }
 .list2 ul, .list3 ul {
     list-style-type: none;
+    font-size: medium;
 
 }
-
+.list1 h4{
+    font-size: 130%;
+}
 .footer{
 margin: 4em 4vw 18vh;
 text-align: center;
@@ -146,6 +166,10 @@ cursor: pointer;
 border: none;
 margin-bottom: 2vh;
 }
+input[type='submit']:hover{
+    box-shadow: 0 0 20px #fff;
+    box-shadow: 0 0 20px #fff;
+}
 
 #skip{
 color:red;
@@ -154,6 +178,7 @@ background: none;
 border: none;
 cursor: pointer;
 }
+
 
 .page-footer{
 display: flex;
@@ -173,5 +198,3 @@ cursor: pointer;
 .footer-text{
     opacity: 50%;
 }
-
-
