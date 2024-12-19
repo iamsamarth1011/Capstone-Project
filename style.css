@@ -85,9 +85,14 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-bottom: 7vw;
-    height: 130vh;
 }
-
+@media (max-width:500px) {
+    .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
 .project{
     margin: 1vh 2vw;
 }
